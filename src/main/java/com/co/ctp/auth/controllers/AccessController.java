@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Log4j2
 @RestController
-@RequestMapping({"/auth/access"})
+@RequestMapping({"/api/V1/auth/access"})
 public class AccessController {
 
     @Autowired private LoginService loginService;
